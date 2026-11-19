@@ -1,0 +1,14 @@
+{
+  "probe": "writer-auth",
+  "ts_utc": "2026-11-19T15:30:46.446443+00:00",
+  "sdk_version": "1.0.17",
+  "bundled_cli_version": "1.1.79",
+  "qodercli_auth_result": "connect hangs: Control request timeout: initialize",
+  "direct_cli_print_result": "Not logged in · Please run /login (exit 124 timeout)",
+  "local_credential_file": "absent (~/.qoder-cn/.auth contains only machine_id)",
+  "host_auth_payload_file": "stale/absent (temp payload.json cleaned; QODER_AGENT_SDK_DAEMON=1 inherited)",
+  "pat_env_present": false,
+  "conclusion": "Standalone bundled CLI has no local login state; automated Writer requires PAT via QODERCN_PERSONAL_ACCESS_TOKEN (spec-recommended).",
+  "required_user_action": "Generate PAT at qoder.cn/account/integrations; export QODERCN_PERSONAL_ACCESS_TOKEN (never hard-coded).",
+  "secrets_excluded": true
+}

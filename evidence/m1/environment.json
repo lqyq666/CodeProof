@@ -1,0 +1,40 @@
+{
+  "milestone": "M1",
+  "frozen_utc": "2026-11-19",
+  "target_repo": "https://github.com/more-itertools/more-itertools",
+  "baseline_sha": "b2f3aff7633057d234ec9186c18a53f4df306d08",
+  "baseline_subject": "Merge pull request #1279 from itzzdev09/fix-one-only-falsy-exception",
+  "main_comparison_environment": {
+    "os": "Linux (Docker)",
+    "image": "python:3.12-slim",
+    "image_digest": "sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b",
+    "cpython": "3.12.16",
+    "verifier_image": "codeproof-verifier:0.1",
+    "verifier_image_id": "sha256:8e17c3450e548522617a5152597838b00d6d8bbea7126f6b35e394b2a873bfec",
+    "isolation": "no network, no host mounts, ephemeral container, in-container root only for editable install"
+  },
+  "host_environment": {
+    "os": "Windows 10.0.26200",
+    "python": "3.12.10",
+    "uv": "0.11.26",
+    "docker": "29.6.1",
+    "git": "2.55.0.windows.2",
+    "node": "v24.22.1"
+  },
+  "qoder_sdk": {
+    "python_package": "qodercn-agent-sdk",
+    "installed_version": "1.0.17",
+    "desktop_client_version": "0.5.14",
+    "auth_method": "pending verification (local sign-in reuse or PAT)"
+  },
+  "contract": {
+    "version": "bucket-contract-1",
+    "digest": "e632b1d43d447907d532363254592290c9185f46ca4f4940da72d998aea89536",
+    "discovery_set_size": 1364,
+    "upstream_test_entry": "make coverage",
+    "coverage_gate": 99
+  },
+  "github_account": "lqyq666",
+  "product_repo": "https://github.com/lqyq666/CodeProof",
+  "historical_ci_reference_only": "https://github.com/more-itertools/more-itertools/actions/runs/34857001414"
+}

@@ -1,0 +1,117 @@
+{
+  "contract_version": "bucket-contract-1",
+  "contract_digest": "e632b1d43d447907d532363254592290c9185f46ca4f4940da72d998aea89536",
+  "counterexample": {
+    "sample": {
+      "id": "counter",
+      "input": [
+        "m0"
+      ],
+      "history": "contains_p",
+      "operations": [
+        {
+          "op": "contains",
+          "key": "p"
+        },
+        {
+          "op": "keys"
+        }
+      ]
+    },
+    "response": {
+      "ok": true,
+      "observations": [
+        {
+          "op": "contains",
+          "key": "p",
+          "value": false
+        },
+        {
+          "op": "keys",
+          "value": [
+            "p",
+            "m"
+          ]
+        }
+      ]
+    },
+    "verdict": {
+      "verdict": "fail",
+      "signature": "missing_key_in_enumeration",
+      "diffs": [
+        {
+          "op": "keys",
+          "expected": [
+            "m"
+          ],
+          "actual": [
+            "m",
+            "p"
+          ],
+          "leaked": [
+            "p"
+          ],
+          "missing": []
+        }
+      ],
+      "sample_id": "counter"
+    }
+  },
+  "contrast": {
+    "sample": {
+      "id": "contrast",
+      "input": [
+        "m0"
+      ],
+      "history": "contains_real",
+      "operations": [
+        {
+          "op": "contains",
+          "key": "m"
+        },
+        {
+          "op": "keys"
+        }
+      ]
+    },
+    "response": {
+      "ok": true,
+      "observations": [
+        {
+          "op": "contains",
+          "key": "m",
+          "value": true
+        },
+        {
+          "op": "keys",
+          "value": [
+            "m"
+          ]
+        }
+      ]
+    },
+    "verdict": {
+      "verdict": "pass",
+      "signature": null,
+      "sample_id": "contrast"
+    }
+  },
+  "stability": {
+    "stable": true,
+    "runs": 3,
+    "signatures": [
+      [
+        "fail",
+        "missing_key_in_enumeration"
+      ],
+      [
+        "fail",
+        "missing_key_in_enumeration"
+      ],
+      [
+        "fail",
+        "missing_key_in_enumeration"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "root": "C:\\Users\\LQY\\Desktop\\全自动打工人\\codeproof-workspaces\\v0-snapshot",
+  "baseline_sha": "b2f3aff7633057d234ec9186c18a53f4df306d08",
+  "allowed_paths": [
+    "more_itertools/more.py"
+  ],
+  "protected_paths": [
+    "tests",
+    ".github",
+    "Makefile",
+    "setup.cfg",
+    "pyproject.toml",
+    "docs",
+    "more_itertools/__init__.py",
+    "more_itertools/recipes.py"
+  ],
+  "protected_digests": {
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_more.py": "cee36a0f396b9fe7e2992b7acbfb3f32adf9283d738685436dd6dadc68494924",
+    "tests/test_recipes.py": "a5a016b416b861ed5a662bf5897acc7942eae57db030b021410f64ce0018344d",
+    ".github/ISSUE_TEMPLATE/other-issues.md": "7d81d86d6144ed70139247f49be44dbd82f9f10087eb577a086d3b206560af06",
+    ".github/ISSUE_TEMPLATE/propose-a-new-itertool.md": "bbbd75a38e4eb12c4f953284f16de7f97eb9dfb54a607aa951a2c7fe802e0dd9",
+    ".github/PULL_REQUEST_TEMPLATE.md": "b3d77af4bdc888d5917cd319575fe8376ff61bef971d39b0fc67c7e23b54bfad",
+    ".github/workflows/python-app.yml": "132b167cd81793368cc4a935b6dba5c6c2de9a5bf4f257800e5318b256cc10e4",
+    "Makefile": "59f1d5702c72c7e026323a772a6ffd0b8e1c879fd41ce7c3e572766a27769b56",
+    "setup.cfg": "7c23c74245d1a4372c1db0b48db2ae7b48b4a5057eba1c179f5b7888c8886b03",
+    "pyproject.toml": "b7798c511ba084f878d035d3f3ab88221d97947b47deca24ad46b9e00f647c24",
+    "docs/_static/theme_overrides.css": "9bddb260de2739c8abb1c57fefd098eeb787739a0b6c10fdb969077c8bac0477",
+    "docs/api.rst": "33ae59d06c28cd1f838b2313fd3b7870a391fac80b8d19e385250df1d0ea00f8",
+    "docs/conf.py": "186b7ecca7e3be726045ca80a26dad5e42af43a04d65749245b5eac46a215042",
+    "docs/index.rst": "9c4321710f0df7cb20f9a4f5d598e86309a82224fc166eb25b9b3fafebe85908",
+    "docs/license.rst": "d906e41ab18d96819dec02e364367bad5699716b7723d1b483c9f16e87dca156",
+    "docs/make.bat": "9eb516e2fc9ff1c26c83fb7d64bdf4a2426ca735dd8e97acad916b126581e8a2",
+    "docs/Makefile": "a217007069c606d661c164029fb882b131f444e0ae8d488137ff62eebacc2ff0",
+    "docs/requirements.txt": "1149f9228d6f06effc25be04f9db665f01719c6d001ba28695c43c8d0bd79b63",
+    "docs/testing.rst": "4ef0a9129247b2e9b15ca47926e0517eda4c5533c4e224b903e9d4e0ac3e916c",
+    "docs/toctree.rst": "17d93977e0cd3265d12e0bc480cbe849b0d3f19515754dc436c9c65aef69054b",
+    "docs/versions.rst": "2866209951c9974d478e8351242ebff0917e8a93347ef3defb6945c61c7d1d03",
+    "more_itertools/__init__.py": "22aac635f58a1a6cfae80e7aa190366e4d772532e593b40308e33bd3e208cc69",
+    "more_itertools/recipes.py": "60c0de99b7aa91d9f6fb8f558e6df6e15ac265e02aa76705f45da233b528b9d3"
+  },
+  "allowed_digests": {
+    "more_itertools/more.py": "7a4cdb9f1ec1bc0283b2611e4df8a51817fa7ac24dfa2795eb5b1ed748c38b0b"
+  }
+}

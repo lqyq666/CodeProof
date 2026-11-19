@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "tests_run": 919,
+  "failures": 0,
+  "errors": 0,
+  "skipped": null,
+  "coverage_pct": 100.0,
+  "python_version": "3.12.16",
+  "command": "make coverage (reproduced: pip install -e . --no-build-isolation --no-deps; coverage run --include=more_itertools/*.py -m unittest; coverage report --fail-under=99)",
+  "note": "V0 baseline upstream tests green; independent behavior check red. Single-environment upstream result (Linux/CPython 3.12.16). Full CI matrix not re-run.",
+  "raw_output_tail": "Ran 919 tests in 311.007s\n\nOK\nmore_itertools/__init__.py 3 0 100%\nmore_itertools/more.py 1794 0 100%\nmore_itertools/recipes.py 422 0 100%\nTOTAL 2219 0 100%\nUNITTEST_EXIT=0\nCOVERAGE_EXIT=0"
+}
