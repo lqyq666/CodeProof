@@ -1,0 +1,19 @@
+{
+  "ts_utc": "2026-11-19T16:21:51.508824+00:00",
+  "purpose": "false_rejection_control",
+  "contract_digest": "e632b1d43d447907d532363254592290c9185f46ca4f4940da72d998aea89536",
+  "candidate_root": "..\\codeproof-workspaces\\cand-correct",
+  "changed": [
+    "more_itertools/more.py"
+  ],
+  "implementation": "eager grouping reference (behavior control only; not upstream-deliverable)",
+  "full_set": {
+    "total": 1364,
+    "passed": 1364,
+    "failed": 0,
+    "error": 0,
+    "timeout": 0,
+    "ok": true
+  },
+  "minimal_counterexample_now_passes": true
+}

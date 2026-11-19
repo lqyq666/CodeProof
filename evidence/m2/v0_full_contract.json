@@ -1,0 +1,71 @@
+{
+  "ts_utc": "2026-11-19T16:18:41.515567+00:00",
+  "contract_version": "bucket-contract-1",
+  "contract_digest": "e632b1d43d447907d532363254592290c9185f46ca4f4940da72d998aea89536",
+  "snapshot": "..\\codeproof-workspaces\\v0-snapshot",
+  "full_set": {
+    "total": 1364,
+    "passed": 0,
+    "failed": 1364,
+    "error": 0,
+    "timeout": 0,
+    "ok": false,
+    "signatures": {
+      "missing_key_in_enumeration": 1364
+    }
+  },
+  "minimized": {
+    "minimal": {
+      "id": "s0000",
+      "input": [],
+      "history": "contains_p",
+      "operations": [
+        {
+          "op": "contains",
+          "key": "p"
+        },
+        {
+          "op": "keys"
+        }
+      ]
+    },
+    "reduced": true,
+    "trace_len": 1,
+    "minimal_verdict": {
+      "verdict": "fail",
+      "signature": "missing_key_in_enumeration",
+      "diffs": [
+        {
+          "op": "keys",
+          "expected": [],
+          "actual": [
+            "p"
+          ],
+          "leaked": [
+            "p"
+          ],
+          "missing": []
+        }
+      ],
+      "sample_id": "s0000"
+    }
+  },
+  "stability": {
+    "stable": true,
+    "runs": 3,
+    "signatures": [
+      [
+        "fail",
+        "missing_key_in_enumeration"
+      ],
+      [
+        "fail",
+        "missing_key_in_enumeration"
+      ],
+      [
+        "fail",
+        "missing_key_in_enumeration"
+      ]
+    ]
+  }
+}
