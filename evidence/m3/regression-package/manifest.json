@@ -1,0 +1,22 @@
+{
+  "contract_version": "bucket-contract-1",
+  "contract_digest": "e632b1d43d447907d532363254592290c9185f46ca4f4940da72d998aea89536",
+  "sample_count": 1364,
+  "files": {
+    "contract.json": "0be3acc22ff1f3868bc882e0cb8ac160c77560d5128ce690324cdeae4c0c58a2",
+    "run_regression.py": "4f53300e2610f90ca579616b7d4de6d48715a3329d404a9d5f31d167533c2a80",
+    "README.md": "a84436e9e2c51e9ec2fb8b4abc8581237c2b8f6d54f478c54987ed037d60342b"
+  },
+  "self_test": {
+    "v0": {
+      "exit_code": 1,
+      "summary": "contract=bucket-contract-1 samples=1364 passed=0 failed=1364",
+      "passed": false
+    },
+    "fixed": {
+      "exit_code": 0,
+      "summary": "contract=bucket-contract-1 samples=1364 passed=1364 failed=0",
+      "passed": true
+    }
+  }
+}
