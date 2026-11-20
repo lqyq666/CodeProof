@@ -1,0 +1,42 @@
+{
+  "ts_utc": "2026-11-20T02:25:32.806391+00:00",
+  "server": "uvicorn 127.0.0.1:8123",
+  "health": {
+    "status": "ok",
+    "runs_recovered": 1,
+    "contract_version": "bucket-contract-1",
+    "contract_digest": "e632b1d43d447907d532363254592290c9185f46ca4f4940da72d998aea89536",
+    "execution_available": true
+  },
+  "verify_subset": {
+    "id": "verify-1f7834ba2202",
+    "model_calls": 0,
+    "result": {
+      "total": 12,
+      "passed": 0,
+      "failed": 12,
+      "ok": false,
+      "signatures": {
+        "missing_key_in_enumeration": 12
+      }
+    }
+  },
+  "verify_full": {
+    "id": "verify-1086311e2a73",
+    "model_calls": 0,
+    "result": {
+      "total": 1364,
+      "passed": 0,
+      "failed": 1363,
+      "ok": false
+    }
+  },
+  "run": {
+    "run_id": "run-8807952c1f3a",
+    "state": "active",
+    "model_calls": 0,
+    "credits_status": "unknown",
+    "tokens_status": "unknown"
+  },
+  "note": "Live product run; verification needs no model call; new verification id per call."
+}
